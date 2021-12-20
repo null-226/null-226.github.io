@@ -89,7 +89,7 @@ input.addEventListener("input", () => {
 
     price = +input.value * 0.009
 	pricex.innerText = input.value
-    if (+input.value >= 1) priceDisplay.innerText
+    if (+input.value >= 1) priceDisplay.innerText = price
 	//else if(input.value < 1) input.value =+ "1"
 	else priceDisplay.innerText = "0.009"
 })
